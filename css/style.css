@@ -4,9 +4,25 @@
 	list-style: none;
 	text-decoration: none;
 }
-body{
-	background: url(../img/bg1.jpg)no-repeat;
-	background-size: 100% auto;
+::-webkit-scrollbar {
+  display: none;
+}
+.bg{
+	width: 100%;
+	position: absolute;
+	
+}
+.bg img{
+	display: block;
+	width: 100%;
+}
+.logo{
+	position: fixed;
+	left: 32px;
+	top: 23%;
+	z-index: 2;
+	width: 8.5rem;
+	height: 3.3125rem;
 }
 .zhu{
 	position: fixed;
@@ -41,22 +57,24 @@ body{
 	color:rgba(255,255,255,0.80);
 	margin-top: 2.4%;
 }
-.left a:nth-child(3){
+#download{
 	display: inline-block;
-	width:187px;
+	width:188px;
 	height:68px;
-	background:rgba(255,255,255,1);
-	border:1px solid rgba(0,0,0,0.23921568627450981);
-	box-shadow:0px 3px 6px rgba(0,0,0,0.16);
-	border-radius:2px;
+	background: #FFFFFF;
+	border: 0.5px solid rgba(0, 0, 0, 0.24);
+	box-sizing: border-box;
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12), inset -2px -2px 4px rgba(0, 0, 0, 0.20);
+	border-radius: 4px;
 	font-size:20px;
 	line-height: 68px;
 	text-align: center;
 	color:rgba(24,25,31,1);
 	margin-top: 12%;
 }
-.left a:hover{
-	background-color: #0ED17F;
+#download:hover{
+	background-color: #F6F6F6;
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12), inset 2px 2px 4px rgba(0, 0, 0, 0.20);
 }
 .llq{
 	width: 428px;
@@ -73,7 +91,12 @@ body{
 	width: 64px;
 	height: 64px;
 }
-.left p:nth-child(5){
+.left a:nth-child(4){
+	font-size:14px;
+	color:rgba(255,255,255,0.3);
+	margin-top: 1%;
+}
+.left p:nth-child(6){
 	font-size:14px;
 	color:rgba(255,255,255,0.4);
 	margin-top: 2.4%;
@@ -127,7 +150,5 @@ body{
 	cursor: pointer;
 }
 .list li:hover{
-	padding-left: 24px;
-	background-color: rgba(14,209,127,0.2);
-	border-left: 8px solid #0ED17F;
+	background-color: #f6f6f6;
 }
