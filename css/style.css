@@ -84,7 +84,7 @@
 	margin: 8px;
 }
 .llq{
-	width: 428px;
+	width: 380px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -95,8 +95,8 @@
 }
 
 .llq img{
-	width: 64px;
-	height: 64px;
+	width: 56px;
+	height: 56px;
 }
 .left a:nth-child(4){
 	font-size:14px;
